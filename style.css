@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--text-second);
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --main-color:#43574C;
+    --second-color:#a6d801;
+    --text-color:#060809;
+    --text-second:#E0D7CE;
+    --heading:1.8rem;
+    --display:2.5rem;
+    --text:1rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    padding: 0px 80px;
+    overflow: hidden;
+}
+.heroHead {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--main-color);
+    border-bottom: 3px solid;
+    border-image: radial-gradient(circle at center, var(--main-color),transparent ) 20; 
+    font-size: var(--text);
+    font-weight: 500;
+}
+.booking {
+    background: var(--text-color);
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: var(--text-second);
+}
+.heroContent {
+    width: 100%;
+    height: 80vh;
+    margin: 30px 0;
+    background-image: url(../../../../home.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 50px;
+    font-size: var(--display);
+    color: var(--text-second);  
+    position: relative;
+    overflow: hidden;
+    font-family: Wilkysta;
+    line-height: 1;
+}
+
+.heroText {
+    font-weight: 100;
+}
+.book {
+    background: var(--text-color);
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: var(--text-second);
+    
+}
+.herobottom {
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25vh;
+    border-bottom: 5px solid;
+    border-image: radial-gradient(circle at center, var(--main-color),transparent ) 20; 
+    font-size: var(--text);
+}
+.heroBottom1, .heroBottom3 {
+    width: 17%;
+    text-align: center;
+    color: var(--text-color);
+}
+.heroBottom2 {
+    height:60%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 4px solid var(--main-color);
+    border-right: 4px solid var(--main-color);
+    font-size: var(--heading);
+    color: var(--main-color);
+}
+.flowraVisit {
+    width: 100%;
+    height: 100vh;
+    padding: 40px 80px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.visitHead {
+    font-size: var(--text);
+    font-weight: 700;
+}
+.flowraVisitContent {
+    display: flex;
+    margin-top: 50px;
+    height: 100%;
+}
+.flowraVisitImage {
+    height: 100%;
+    width: 50%;
+    margin-right: 100px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.flowraVisitImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.visitContent {
+    width: 50%;
+    padding-left: 100px;
+    height: 100%;
+    border-left: 5px solid var(--main-color);
+}
+.visitContent h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--main-color);
+    font-family: Wilkysta;
+    line-height: 1;
+}
+.visitContent p {
+    margin-top: 20px;
+    width: 80%;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: var(--text);
+}
+.visitLearnMore {
+    background: var(--text-color);
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: var(--text-second);
+    margin: 40px 0;
+}
+
+.rainbow {
+    width: 100%;
+    height: 120vh;
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--main-color);
+    color: var(--text-second);
+    position: relative;
+}
+.rainbowHeading {
+    width: 53%;
+    text-align: center;
+}
+.rainbowHeading h1 {
+    font-size: 4rem;
+    line-height: 1;
+    font-family: Wilkysta;
+}
+.rainbowpara {
+    margin: 10px 0;
+    font-size: var(--text);
+}
+.rainbowCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+}
+.card {
+    width: 270px;
+    height: 550px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardImage {
+    width: 100%;
+    height: 70%;
+    background-color: red;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: -5px 5px 0px var(--second-color);
+}
+.cardImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+}
+.card p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+.card a {
+    margin: 10px 0;
+    color: var(--second-color);
+    text-underline-offset: 3px;
+    text-align: center;
+}
+.happiness {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0 80px 80px;
+    color: var(--text-color);
+    overflow: hidden;
+}
+.happinessContent {
+    position: relative;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.happinessContent h1 {
+    font-size: 5rem;
+    font-weight: 500;
+    color: var(--main-color);
+    font-family: Wilkysta;
+    line-height: 1;
+}
+.happinessContent p , a {
+    margin-top: 20px;
+    width: 80%;
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: var(--text);
+}
+.happinessContent p:nth-child(2){
+    margin-top: 40px;
+}
+.guestPhoto {
+    color: var(--text-color);
+    text-underline-offset: 4px;
+}
+.guestPhoto:hover {
+    color: #43574C;
+}
+.happinessImageContainer {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overscroll-behavior-inline: contain;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.happinessImageContainer::-webkit-scrollbar {
+    width: 0;
+}
+.imagesContainer {
+    height: 100%;
+    min-width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 30px;
+}
+.imagesContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.colourfull {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 80px;
+    color: var(--text-second);
+    overflow: hidden;
+    background-image: url(../../../../last.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.colourfull::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: var(--main-color);
+}
+.colorfullContent {
+    width: 40%;
+}
+.colorfullContent h1 {
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 1;
+    font-family: Wilkysta;
+}
+.colorfullContent p {
+    width: 80%;
+    margin: 20px 0 40px 0;
+}
+.colorButton {
+    background: var(--second-color);
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: var(--text-color);
+    border: none;
+    outline: none;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    color: var(--text-color);
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin-bottom: 40px;
+    border-bottom: 5px solid;
+    border-image: radial-gradient(circle at center, var(--main-color),transparent ) 20; 
+}
+.footerLeft {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.footerMiddle {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--main-color);
+}
