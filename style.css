@@ -315,7 +315,7 @@ body {
     padding: 80px;
     color: var(--text-second);
     overflow: hidden;
-    background-image: url(../../../../last.jpg);
+    background-image: url(last.jpg);
     background-size: cover;
     background-position: bottom;
 }
